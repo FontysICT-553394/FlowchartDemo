@@ -31,7 +31,8 @@ public class FlowchartPoint
     {
         if(Type == FlowchartPointType.ANSWER)
         {
-            Console.WriteLine(Text);
+            Console.WriteLine(Text + " [Press Enter To Close]");
+            string? input = Console.ReadLine();
         }
         else
         {
