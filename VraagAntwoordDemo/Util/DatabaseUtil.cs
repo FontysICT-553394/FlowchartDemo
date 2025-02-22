@@ -8,13 +8,25 @@ public class DatabaseUtil
     public static List<FlowchartPoint> questions = new();
     public static List<FlowchartPoint> answers = new();
 
-    public static FlowchartPoint? GetQuestionFromId(int id)
+    public static FlowchartPoint? GetQuestionFromId(int medId, int flowPointId)
     {
-        return questions.FirstOrDefault(q => q.Id == id);
+        foreach (var q in questions)
+        {
+            if(q.MedId == medId && q.Id == flowPointId)
+                return q;
+        }
+
+        return null;
     }
-    
-    public static FlowchartPoint? GetAnswerFromId(int id)
+
+    public static FlowchartPoint? GetAnswerFromId(int medId, int flowPointId)
     {
-        return answers.FirstOrDefault(a => a.Id == id);
+        foreach (var a in answers)
+        {
+            if(a.MedId == medId && a.Id == flowPointId)
+                return a;
+        }
+
+        return null;
     }
 }
