@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VraagAntwoordDemo", "VraagAntwoordDemo\VraagAntwoordDemo.csproj", "{B43FCF32-427F-4120-A467-9437181C4511}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VraagAntwoordTest", "VraagAntwoordTest\VraagAntwoordTest.csproj", "{A3B213EF-6D52-411D-9282-BB0E0FF9DDA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B43FCF32-427F-4120-A467-9437181C4511}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43FCF32-427F-4120-A467-9437181C4511}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43FCF32-427F-4120-A467-9437181C4511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B213EF-6D52-411D-9282-BB0E0FF9DDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B213EF-6D52-411D-9282-BB0E0FF9DDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B213EF-6D52-411D-9282-BB0E0FF9DDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B213EF-6D52-411D-9282-BB0E0FF9DDA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

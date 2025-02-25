@@ -2,7 +2,7 @@
 using VraagAntwoordDemo.Enums;
 using VraagAntwoordDemo.Util;
 
-Medication cotrimoxazol03 = new Medication(1,"cotrimoxazol");
+Medication cotrimoxazol03 = new Medication(1,"Cotrimoxazol");
 Medication Foliumzuur15 = new Medication(2,"Foliumzuur");
 
 var questionsList = new List<FlowchartPoint>();
